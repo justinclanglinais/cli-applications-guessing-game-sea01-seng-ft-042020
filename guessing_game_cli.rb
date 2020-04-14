@@ -1,7 +1,7 @@
 # Code your solution here!
 require 'pry'
 def run_guessing_game
-  rando = (rand(6) + 1)
+  rando = (rand(6) + 1).to_s
   input = gets.chomp
   if input == "exit"
     puts "Goodbye!"
